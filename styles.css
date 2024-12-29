@@ -6,3 +6,54 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+
+.sticky-note {
+    position: fixed;
+    background: #ffffa5;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    min-height: 150px;
+    resize: both;
+    overflow: auto;
+    z-index: 1000;
+}
+
+.sticky-note-header {
+    cursor: move;
+    padding: 5px;
+    margin: -15px -15px 10px -15px;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 5px 5px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sticky-note-content {
+    outline: none;
+    width: 100%;
+    height: calc(100% - 30px);
+    background: transparent;
+    border: none;
+    resize: none;
+    font-family: inherit;
+}
+
+.sticky-note-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.sticky-note-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.sticky-note-button:hover {
+    background: rgba(0, 0, 0, 0.1);
+}

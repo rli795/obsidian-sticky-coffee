@@ -1,11 +1,10 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "obsidian-sticky-coffee",
+	"name": "Sticky Coffee",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
-	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
-	"isDesktopOnly": false
+	"description": "A sticky notes plugin for Obsidian, inspired by macOS Sticky Notes.",
+	"author": "Ray Li",
+	"authorUrl": "https://github.com/rli795",
+	"isDesktopOnly": true
 }
